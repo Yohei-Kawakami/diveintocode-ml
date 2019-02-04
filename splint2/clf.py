@@ -34,8 +34,8 @@ def main(args):
     normalization :name, True= standardize　False= no standardize
 
     """
-    X = pd.read_csv('classifier_X.csv')
-    y = pd.read_csv('classifier_y.csv')
+    X = pd.read_csv('classifier_X.csv', index_col=0)
+    y = pd.read_csv('classifier_y.csv', index_col=0)
 
     # split train data and test data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
