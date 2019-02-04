@@ -5,11 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../diveintocode-term1/ml-scratch/utils/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../diveintocode-term1/ml-scratch/utils/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../diveintocode-term1/ml-scratch/utils/train_test_split.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/sprint2-ml-scratch-intro-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/sprint2-ml-scratch-intro-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier_X.csv" beforeDir="false" afterPath="$PROJECT_DIR$/classifier_X.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier_y.csv" beforeDir="false" afterPath="$PROJECT_DIR$/classifier_y.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clf.py" beforeDir="false" afterPath="$PROJECT_DIR$/clf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sprint2-ml-scratch-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sprint2-ml-scratch-intro.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week4/week4_session.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/week4_session.ipynb" afterDir="false" />
     </list>
@@ -36,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lnr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="705">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding>
                 <element signature="e#28#43#0" expanded="true" />
               </folding>
@@ -153,8 +149,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lnr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="705">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="e#28#43#0" expanded="true" />
           </folding>
