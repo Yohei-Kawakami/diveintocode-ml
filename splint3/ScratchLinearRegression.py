@@ -27,13 +27,15 @@ class ScratchLinearRegression():
 
     """
 
-    def __init__(self, num_iter=500, lr=0.01, bias=True, verbose=True):
+    def __init__(self, num_iter=500, lr=0.01, bias=True, verbose=True, num_feature=2):
         # ハイパーパラメータを属性として記録
         self.num_iter = num_iter
         self.lr = lr
         self.bias = bias
         self.verbose = verbose
         self.n = 0
+        # thetaを保存するリストを作成
+        self.theta = np.zeros((self.num_iter, int(bias) + num_feature))
 
         # 損失を記録する配列を用意
         self.loss = np.zeros(self.num_iter)
@@ -78,7 +80,6 @@ class ScratchLinearRegression():
 
             # 標準化処理
             X_val = (X_val - mu_val) / sigma_val
-
             # バイアス項の挿入
             X_val = np.hstack((np.ones(m_val).reshape(m_val, 1), X_val))
 
@@ -86,15 +87,15 @@ class ScratchLinearRegression():
         self._init_theta()
 
         # 最急降下法
-        if type(X_val) == np.ndarray:
-            self._gradient_descent(X_val, y_val)
-            self.val_loss = self.loss
-
-        # シータの初期化
-        self._init_theta()
-
         self._gradient_descent(X, y)
         self.use_loss = self.loss
+
+        # X_val入力ある場合MSEのリザルトを出す
+        if type(X_val) == np.ndarray:
+            val_pred = np.dot(X_val, self.theta.T)
+            m_val = len(y_val)
+            for i in range(self.num_iter):
+                self.val_loss[i] = (0.5 * (1 / m_val) * np.sum(((val_pred[:, i] - y_val) ** 2)))
 
     def _init_theta(self):
         """
@@ -143,6 +144,8 @@ class ScratchLinearRegression():
 
         for i in range(self.num_iter):
             self.coef_ = self.coef_ - alpha * (1 / m) * (np.dot(X.T, (hx - y)))
+            self.theta[i] = self.coef_.T
+
             hx = self._linear_hypothesis(X)
 
             if self.verbose:
@@ -153,11 +156,6 @@ class ScratchLinearRegression():
             # trainデータのlossのリザルトを出す
             if self.verbose:
                 self.loss[i] = self._compute_cost(X, y)
-
-            #             # X_val入力ある場合MSEのリザルトを出す
-            #             if type(X_val) == np.ndarray:
-            #                 val_pred = self._linear_hypothesis(X_val)
-            #                 self.val_loss[i] = self._compute_cost(val_pred, y_val)
 
             count += 1
 
