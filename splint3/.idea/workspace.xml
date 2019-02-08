@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd538342-47ad-4097-a4a0-d4b2ff60b530" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScratchLinearRegression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../diveintocode-term1/ml-scratch/utils/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../diveintocode-term1/ml-scratch/utils/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../diveintocode-term1/ml-scratch/utils/train_test_split.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../splint2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../splint2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../splint2/sprint2-ml-scratch-intro.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../splint2/sprint2-ml-scratch-intro.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/sprint3-ml-scratch-linear-regression-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/sprint3-ml-scratch-linear-regression-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sprint3-ml-scratch-linear-regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/sprint3-ml-scratch-linear-regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week2/week2-session.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2-session.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week4/week4_session.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/week4_session.ipynb" afterDir="false" />
     </list>
